@@ -1,0 +1,10 @@
+{
+    "it500Username": "",
+    "it500Password": "",
+    "it500DeviceId": "",
+    "mqttServer": "192.168.0.5",
+    "mqttUsername": "homeassistant",
+    "mqttPassword": "password",
+    "publishTopic": "tele/it500",
+    "timeToLiveMinutes": 15
+}
