@@ -62,3 +62,6 @@ typings/
 
 # save accidentally checking in a settings file
 settings.json
+
+# you don't really want your cached key sent to the repo
+.node-persist
