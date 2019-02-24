@@ -4,7 +4,8 @@ const path = require('path');
 
 let config = {
     debug: false,
-    loadError: false
+    loadError: false,
+    pollIntervalSeconds: 60
 };
 
 function init() {
