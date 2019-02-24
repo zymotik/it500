@@ -24,7 +24,10 @@
   "scripts": {
     "debug": "node index.js --inspect-brk=9229",
     "start": "node index.js",
-    "test": "nyc mocha --compilers js:babel-core/register --exit"
+    "test": "nyc mocha --compilers js:babel-core/register --exit",
+    "service-install": "forever-service install it500 --script index.js --start",
+    "service-remove": "forever-service delete it500",
+    "view-log": "tail -f /var/log/it500.log"
   },
   "babel": {
     "presets": [

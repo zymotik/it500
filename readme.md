@@ -29,3 +29,23 @@ sensor:
       expire_after: 120
       value_template: '{{ value_json.Zone2Temperature }}'
 ```
+
+### Setting up as a service on a RaspberryPi
+
+Install forever and forever-service on the RaspberryPi
+
+`sudo npm install forever -g`
+
+`sudo npm install forever-service -g`
+
+Then run in the source directory (where this `readme.md` file is):
+
+`sudo npm run service-install`
+
+And to remove:
+
+`sudo npm run service-remove`
+
+To view service logs use the command:
+
+`sudo npm run view-log`
